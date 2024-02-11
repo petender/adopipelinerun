@@ -20,5 +20,5 @@ jobs:
           uses: Azure/pipelines@v1
           with:
             azure-devops-project-url: https://dev.azure.com/pdtdemoworld/EShopOnWeb-GitHubRepo
-            azure-pipeline-name: 'eShopOnWeb-ASP.NET Core-CI'
+            azure-pipeline-name: 'EShopOnWeb-GitHubRepo-CI'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
